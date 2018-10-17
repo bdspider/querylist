@@ -1,0 +1,30 @@
+{
+    "name": "bdspider/querylist",
+    "description": "crawler,spider for phpQuery。",
+    "keywords":["QueryList","phpQuery","spider"],
+    "homepage": "http://querylist.cc",
+    "require": {
+        "PHP":">=7.0",
+        "jaeger/phpquery-single": "^0.9",
+        "tightenco/collect": "^5",
+        "jaeger/g-http": "^1.1"
+    },
+    "suggest":{
+
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "bdspider",
+            "email": "bspider@126.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "QL\\":"src"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.3"
+    }
+}
